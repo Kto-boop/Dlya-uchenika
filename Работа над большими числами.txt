@@ -1,0 +1,3 @@
+select * from yourtable
+    where left(`fieldname`,16) & left(X'1788b7802c8530419999999',16)=left(X'1788b7802c8530419999999')
+      and right(fieldname,char_length(fieldname)-16) & right(X'1788b7802c8530419999999',char_length(X'1788b7802c8530419999999')-16)=right(X'1788b7802c8530419999999',char_length(X'1788b7802c8530419999999')-16)
